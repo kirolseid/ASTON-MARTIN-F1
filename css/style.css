@@ -39,7 +39,7 @@ nav .logo img {
 }
 nav .features {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
 }
 nav .list ul li {
   list-style: none;
@@ -57,7 +57,7 @@ nav .list ul li {
 }
 
 nav .features .shoping {
-  margin-left: 186px;
+  /* margin-left: 186px; */
 }
 
 nav .features .shoping svg {
