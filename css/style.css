@@ -256,13 +256,9 @@ color: #000000;
 .sections .img:hover .caption{
     display: block;
     color: #01211d;
-/* left:12%; */
     top: 70%;
     transition: 0.8s;
-/* 
-    position: absolute;
-    top: 70%;
-    background-color: #000000; */
+
  }
 
  .sections .img:hover .wilHeddin{
@@ -326,6 +322,7 @@ color: #000000;
 
   color: #ffffff;
 }
+
 
 footer .col-md-4 {
   background: #013630;
@@ -504,4 +501,111 @@ color: #000000;
     line-height: 22px;
     
     color: #000000;
+    }
+
+
+    @media all and (min-width: 1200px) and (max-width: 1440px) {
+      nav .list ul li {
+        font-size: 15px;
+      }
+
+      nav .features .shoping svg {
+        font-size: 12px;
+      }
+
+      .welcomeSection .caption h4 {
+        font-size: 60px;
+        line-height: 50px;
+      }
+
+      
+.sections .caption h4{
+  font-size: 40px;  
+}
+
+.sections .caption p{
+font-size: 22px;
+}
+
+.sections .caption button{
+font-size: 20px;
+}
+
+.sections .img:hover .caption{
+  top: 65%;
+}
+
+.servies .one p {
+  font-size: 17px;
+}
+
+
+footer .col-md-4 {
+  padding-bottom: 40px;
+}
+
+footer .col-md-4 h4 {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 30px 0 25px 0;
+}
+
+footer .col-md-4 p {
+
+  font-size: 16px;
+  line-height: 25px;
+  margin: 20px 0;
+}
+
+footer .col-md-4 img{
+  width: 30%;
+}
+
+footer .col-md-4 svg {
+  padding: 2px;
+  margin-right: 12px;
+}
+
+footer .col-md-4 span {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+footer .col-md-8 {
+  padding-left: 90px;
+}
+
+footer .col-md-8 h6 {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 30px 0 25px;
+}
+
+footer .col-md-8 .payment img{
+margin-right: 30px;
+}
+
+footer .col-md-8 p {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 30px 0 40px;
+}
+
+footer .col-md-8 button {
+  font-size: 25px;
+  line-height: 34px;
+  padding: 12px 100px;
+}
+
+footer .col-md-8 .social {
+  margin-block-start: 28px !important;
+  margin-left: 135px;
+}
+
+footer .col-md-8 .social img {
+  margin-right: 40px !important;
+}
+
+
+
     }
