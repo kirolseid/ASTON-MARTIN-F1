@@ -41,10 +41,15 @@ nav .features {
   display: flex;
   justify-content: space-between;
 }
+
+nav .list ul{
+  margin-bottom: 0px;
+}
 nav .list ul li {
   list-style: none;
   display: inline-block;
   margin-left: 90px;
+  padding-bottom: 15px;
 
   font-family: "Optima Medium";
   font-style: normal;
@@ -56,13 +61,30 @@ nav .list ul li {
   color: #ffffff;
 }
 
+nav .list .active{
+  border-bottom: 2px solid #CEDC01;
+}
 
+nav .features .shoping {
+margin-right: 30px;
+}
 
 nav .features .shoping svg {
   margin-right: 20px;
   background-color: #fff;
   border-radius: 50%;
   padding: 5px;
+}
+
+nav h2{
+  font-family: 'Optima bold';
+font-style: normal;
+font-weight: 550;
+font-size: 70px;
+line-height: 64px;
+padding: 90px  0 50px;
+
+color: #CEDC01;
 }
 
 .welcomeSection .caption {
@@ -367,6 +389,10 @@ footer .col-md-8 h6 {
   color: #ffffff;
 }
 
+footer .col-md-8 .payment img{
+margin-right: 30px;
+}
+
 footer .col-md-8 p {
   font-family: "Poppins";
   font-style: normal;
@@ -399,3 +425,83 @@ footer .col-md-8 .social {
 footer .col-md-8 .social img {
   margin-right: 40px !important;
 }
+
+
+
+.filterBar{
+  margin-bottom: 80px;
+}
+
+.filterBar ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+
+}
+
+
+.filterBar ul li{
+ list-style: none;
+ margin-right: 84px;
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+opacity: 0.7;
+  
+
+}
+
+.filterBar ul li svg{
+ color: #CEDC01
+
+   
+ 
+ }
+
+
+ .items .one{
+  text-align: center;
+  margin-bottom: 50px;
+ }
+
+ .items .one h6{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+margin-top: 20px;
+
+color: #000000;
+ }
+
+ .items .one span{
+  font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 27px;
+ /* identical to box height */
+ 
+ 
+ color: #CEDC01;
+  }
+
+  .items .one h5{
+    font-family: 'Optima Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    
+    color: #000000;
+    }
