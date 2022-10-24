@@ -1,9 +1,24 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".sliderSec .mySwiper", {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
   });
+
+  var swiper = new Swiper(".oneItem .mySwiper", {
+    // effect: "flip",
+    // grabCursor: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+
+    },
+    
+  });
+
+  $('nav .openSearch').click(()=>{
+    $('nav .search').fadeToggle()
+  })
 
 
   $('#s1').mouseenter(function(){
@@ -78,3 +93,11 @@ var swiper = new Swiper(".mySwiper", {
 
 
   
+
+  $('.paymentPage .show').click(()=>{
+$('.hiddenInputs').fadeIn()
+  })
+
+  $('.paymentPage .hide').click(()=>{
+    $('.hiddenInputs').fadeOut()
+      })
